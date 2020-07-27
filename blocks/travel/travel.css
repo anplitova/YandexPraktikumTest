@@ -1,0 +1,35 @@
+@import url(./__banner/travel__banner.css);
+@import url(./__content/travel__content.css);
+@import url(./__title/travel__title.css);
+@import url(./__text/travel__text.css);
+
+.travel {
+  max-width: 1184px;
+  margin: auto;
+  padding-top: 67px;
+}
+
+@media screen and (min-width: 768px) {
+  .travel {
+    padding-top: 99px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .travel {
+    padding-top: 105px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .travel {
+    padding-top: 96px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .travel {
+    padding-top: 92px;
+  }
+}
+

@@ -1,0 +1,22 @@
+.place__img {
+  margin-bottom: 21px;
+}
+
+@media screen and (min-width: 600px) {
+  .place__img {
+    max-width: 280px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__img {
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__img {
+    max-width: 440px;
+  }
+}

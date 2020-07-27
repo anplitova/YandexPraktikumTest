@@ -1,0 +1,14 @@
+@media screen and (min-width: 600px) {
+  .comments__list {
+    max-width: 382px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .comments__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+}

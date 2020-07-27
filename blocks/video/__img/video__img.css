@@ -1,0 +1,18 @@
+.video__img {
+  position: relative;
+}
+
+.video__img:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .5;
+  transition: opacity .3s ease;
+}
+
+.video__img .page__img {
+  min-height: 199px;
+  object-fit: cover;
+}

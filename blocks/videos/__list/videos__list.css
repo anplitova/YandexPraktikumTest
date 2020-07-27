@@ -1,0 +1,7 @@
+@media screen and (min-width: 600px) {
+  .videos__list {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 16px;
+  }
+}

@@ -1,0 +1,9 @@
+.videos__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 600px) {
+  .videos__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

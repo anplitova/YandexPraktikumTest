@@ -1,0 +1,14 @@
+@import url(./__wrapper/page__wrapper.css);
+@import url(./__list/page__list.css);
+@import url(./__link/page__link.css);
+@import url(./__img/page__img.css);
+@import url(./__title/page__title.css);
+@import url(./__text/page__text.css);
+@import url(./__button/page__button.css);
+
+.page {
+  background-color: var(--page-bg-color);
+  color: var(--page-text-color);
+  font-weight: 400;
+  font-family: var(--page-font-inter);
+}

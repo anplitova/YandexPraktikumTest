@@ -1,0 +1,12 @@
+.comment__img {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 14px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 769px) {
+  .comment__img {
+    margin-bottom: 41px;
+  }
+}

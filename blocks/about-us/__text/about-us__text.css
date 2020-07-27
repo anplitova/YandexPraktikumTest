@@ -1,0 +1,26 @@
+.about-us__text {
+  margin-bottom: 36px;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__text {
+    max-width: 700px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-us__text {
+    margin-bottom: 17px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us__text {
+    margin-bottom: 12px;
+  }
+}

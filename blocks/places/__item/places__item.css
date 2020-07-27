@@ -1,0 +1,9 @@
+.places__item:not(:last-child) {
+  margin-bottom: 54px;
+}
+
+@media screen and (min-width: 1024px) {
+  .places__item:not(:last-child) {
+    margin-bottom: 73px;
+  }
+}

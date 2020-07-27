@@ -1,0 +1,9 @@
+
+:root {
+  /* Colors */
+  --page-bg-color: #2a2c2f;
+  --page-text-color: #fff;
+  --page-text-gray: #aaa;
+  /* Fonts */
+  --page-font-inter: "Inter", "Arial", sans-serif;
+}

@@ -1,0 +1,28 @@
+@import url(./__title/videos__title.css);
+@import url(./__text/videos__text.css);
+@import url(./__list/videos__list.css);
+@import url(./__item/videos__item.css);
+
+.videos {
+  max-width: 1184px;
+  padding-top: 70px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .videos {
+    padding-top: 104px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .videos {
+    padding-top: 85px;
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
