@@ -1,0 +1,14 @@
+@import url(./__title/place__title.css);
+@import url(./__img/place__img.css);
+@import url(./__content/place__content.css);
+@import url(./__text/place__text.css);
+@import url(./__url/place__url.css);
+@import url(./__url-title/place__url-title.css);
+@import url(./__url-text/place__url-text.css);
+
+@media screen and (min-width: 600px) {
+  .place {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}

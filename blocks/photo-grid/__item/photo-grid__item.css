@@ -1,0 +1,13 @@
+.photo-grid__item {
+  width: 100%;
+}
+
+.photo-grid__item .page__img {
+  filter: brightness(100%);
+  transition: filter .3s ease;
+}
+
+.photo-grid__item .page__img:hover {
+  filter: brightness(60%);
+  cursor: pointer;
+}

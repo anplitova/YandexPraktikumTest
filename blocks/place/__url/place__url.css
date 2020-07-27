@@ -1,0 +1,12 @@
+.place__url {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8px;
+}
+
+@media screen and (min-width: 600px) {
+  .place__url {
+    display: flex;
+  }
+}

@@ -1,0 +1,33 @@
+@import url(./__title/comments__title.css);
+@import url(./__text/comments__text.css);
+@import url(./__list/comments__list.css);
+@import url(./__item/comments__item.css);
+
+.comments {
+  max-width: 1184px;
+  margin: auto;
+  padding: 0 16px;
+  padding-top: 65px;
+}
+
+@media screen and (min-width: 600px) {
+  .comments {
+    padding-top: 105px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .comments {
+    padding-top: 105px;
+    padding-right: 24px;
+    padding-left: 24px;  
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .comments {
+    padding-top: 113px;
+    padding-right: 48px;
+    padding-left: 48px;  
+  }
+}
